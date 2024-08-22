@@ -1,0 +1,63 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #343a40;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.form-select {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #000000;
+    border-color: #000000;
+    color: white;
+    border-radius: 25px; /* Bo tròn góc */
+    padding: 10px 20px; /* Tăng kích thước nút */
+    font-size: 16px; /* Tăng kích thước chữ */
+    transition: all 0.3s ease; /* Thêm hiệu ứng chuyển động */
+    box-shadow: 0 4px 6px rgba(81, 83, 83, 0.2); /* Thêm đổ bóng */
+}
+
+.btn-outline-secondary {
+    border-radius: 25px; /* Bo tròn góc */
+    transition: all 0.3s ease; /* Thêm hiệu ứng chuyển động */
+    border-color: #6c757d;
+    color: #6c757d;
+}
+
+.btn-primary:hover, .btn-outline-secondary:hover {
+    opacity: 0.9;
+}
+
+.img-thumbnail {
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #444545;
+    border-color: #4e4e4e;
+    box-shadow: 0 6px 8px rgba(109, 111, 113, 0.4); /* Thay đổi đổ bóng khi hover */
+    transform: translateY(-2px); /* Thêm hiệu ứng nhấp nháy */
+}
+
+
